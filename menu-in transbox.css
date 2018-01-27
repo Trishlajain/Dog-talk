@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'><link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+body
+{
+font-family: 'Amita';
+
+letter-spacing: 2px;
+ background-image: url("wyatt-ryan-367017.jpg");
+ /*background-color: white;*/
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center;
+ background-size:100% 100%;
+
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+h1 {
+
+   font-size: 4em; /* 40px/16=2.5em */
+font-weight: bold;
+}
+div.transbox h3{
+font-weight: bold;
+font-color:#f18973;
+}
+p.tagline
+{
+    font-size: 1.875em; /* 30px/16=1.875em */
+
+ }
+pre.thebox
+{
+ font-family: 'Croissant One';
+font-weight: bold;
+  font-color: #000000;
+font-size: 1.0em;
+}
+div.transbox {
+  margin: 20px;
+  background-color: #000000;
+  border:thin solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+div.tab-content{
+color: #d9d9d9;
+}
+
+div.transbox p {
+  margin: 2%;
+  font-weight: bold;
+  color: #f18973;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+</style>
+
+</head>
